@@ -22,3 +22,6 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+sidekiq signals:
+https://github.com/mperham/sidekiq/wiki/Signals

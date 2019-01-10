@@ -1,0 +1,5 @@
+#/usr/bin/bash
+
+ID="$1"
+
+sidekiqctl quiet ./tmp/pids/sidekiq_alive_$ID.pid

@@ -1,0 +1,5 @@
+#/usr/bin/bash
+
+ID="$1"
+
+HOSTNAME=sidekiq_alive_$ID bundle exec sidekiq -C ./config/sidekiq_$ID.yml
