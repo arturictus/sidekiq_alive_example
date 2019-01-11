@@ -1,3 +1,4 @@
 queues:
+  - default
   - sidekiq_alive
 pidfile: './tmp/pids/sidekiq_alive_3.pid'
