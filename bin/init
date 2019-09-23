@@ -2,4 +2,4 @@
 
 ID="$1"
 
-HOSTNAME=sidekiq_alive_$ID bundle exec sidekiq -C ./config/sidekiq_$ID.yml
+HOSTNAME=sidekiq_alive_$ID SIDEKIQ_ALIVE_PORT=743$ID bundle exec sidekiq -C ./config/sidekiq_$ID.yml
